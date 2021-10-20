@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C6B5FDCB-6491-4AAD-AA01-9023A8FAE24A}|Default">
+  <MonoDevelop.Ide.ItemProperties.AgageldiDurdyyevLab2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AgageldiDurdyyevLab2/Program.cs">
+    <Files>
+      <File FileName="AgageldiDurdyyevLab2/Program.cs" Line="152" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AgageldiDurdyyevLab2" expanded="True">
+            <Node name="AgageldiDurdyyevLab2" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

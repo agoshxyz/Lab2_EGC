@@ -1,0 +1,16 @@
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.deps.json
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.runtimeconfig.json
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.runtimeconfig.dev.json
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.dll
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.pdb
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.csproj.AssemblyReference.cache
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.AssemblyInfoInputs.cache
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.AssemblyInfo.cs
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.csproj.CoreCompileInputs.cache
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.dll
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.pdb
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.genruntimeconfig.cache
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/OpenTK.dll
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/bin/Debug/netcoreapp3.1/OpenTK.GLControl.dll
+/Users/agosh/an3/EGC/Lab2_EGC/AgageldiDurdyyevLab2/obj/Debug/netcoreapp3.1/AgageldiDurdyyevLab2.csproj.CopyComplete
