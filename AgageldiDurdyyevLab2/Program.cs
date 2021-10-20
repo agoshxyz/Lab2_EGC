@@ -5,7 +5,7 @@ using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 
-namespace OpenTK_immediate_mode
+namespace Laboratorul2
 {
     class ImmediateMode : GameWindow
     {
@@ -57,6 +57,16 @@ namespace OpenTK_immediate_mode
 
         }
 
+        bool cube = false;
+
+        protected override void OnMouseMove(MouseMoveEventArgs e)
+        {
+
+            cube = false;
+
+
+            base.OnMouseMove(e);
+        }
         /** Secțiunea pentru "game logic"/"business logic". Tot ce se execută în această secțiune va fi randat
             automat pe ecran în pasul următor - control utilizator, actualizarea poziției obiectelor, etc. */
         protected override void OnUpdateFrame(FrameEventArgs e)
@@ -69,6 +79,14 @@ namespace OpenTK_immediate_mode
             if (keyboard[Key.Escape])
             {
                 Exit();
+            }
+            if (keyboard[Key.P] && keyboard[Key.O])
+            {
+                cube = true;
+            }
+            else if(keyboard[Key.X])
+            {
+                cube = false;
             }
         }
 
@@ -86,14 +104,63 @@ namespace OpenTK_immediate_mode
 
             DrawAxes();
 
+            if (cube)
+            {
+                DrawCube();
+            }
+
+            
+
             DrawObjects();
 
 
-
+          
             // Se lucrează în modul DOUBLE BUFFERED - câtă vreme se afișează o imagine randată, o alta se randează în background apoi cele 2 sunt schimbate...
             SwapBuffers();
         }
+        private void DrawCube()
+        {
+            GL.Begin(PrimitiveType.Quads);
 
+            GL.Color3(Color.Silver);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+
+            GL.Color3(Color.Honeydew);
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+
+            GL.Color3(Color.Moccasin);
+
+            GL.Vertex3(-1.0f, -1.0f, -1.0f);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+
+            GL.Color3(Color.IndianRed);
+            GL.Vertex3(-1.0f, -1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+
+            GL.Color3(Color.PaleVioletRed);
+            GL.Vertex3(-1.0f, 1.0f, -1.0f);
+            GL.Vertex3(-1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+
+            GL.Color3(Color.ForestGreen);
+            GL.Vertex3(1.0f, -1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, -1.0f);
+            GL.Vertex3(1.0f, 1.0f, 1.0f);
+            GL.Vertex3(1.0f, -1.0f, 1.0f);
+
+            GL.End();
+        }
         private void DrawAxes()
         {
 
