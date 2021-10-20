@@ -80,11 +80,11 @@ namespace Laboratorul2
             {
                 Exit();
             }
-            if (keyboard[Key.P] && keyboard[Key.O])
+            if (keyboard[Key.Enter] && keyboard[Key.ShiftRight])
             {
                 cube = true;
             }
-            else if(keyboard[Key.X])
+            else if(keyboard[Key.BackSpace])
             {
                 cube = false;
             }
